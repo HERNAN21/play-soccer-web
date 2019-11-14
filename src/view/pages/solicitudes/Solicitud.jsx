@@ -16,9 +16,21 @@ class Solicitud extends React.Component{
         }
 
 
-        
+
 
     }
+
+
+
+
+    render (){
+        return (
+            <>
+                <h1>Solicitud</h1>
+            </>
+        );
+    }
+
 
 }
 
