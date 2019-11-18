@@ -14,10 +14,7 @@ class Solicitud extends React.Component{
 
 
         }
-
-
-
-
+        
     }
 
 
