@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SimpleHeader from '../src/components/Headers/SimpleHeader'
+import SimpleHeader from '../src/components/Headers/SimpleHeader';
+
+// Pruebas
+import Personal from '../src/view/pages/persona/Personal';
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
 
       <div className="App">
         <SimpleHeader></SimpleHeader>
+        <Personal></Personal>
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
