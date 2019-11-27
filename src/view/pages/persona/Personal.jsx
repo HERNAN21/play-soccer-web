@@ -4,6 +4,9 @@ import { server,api_name } from '../../../api/general';
 // const fetch = require('node-fetch');
 import axios from 'axios';
 
+import Loader from 'react-loader-spinner'
+
+
 class Personal extends React.Component{
     constructor(prop){
         super(prop)
@@ -46,6 +49,14 @@ class Personal extends React.Component{
         return (
             <>
                 {/* <h1>Personal  Redux </h1> */}
+                {/* <Loader
+                    type="Puff"
+                    color="#00BFFF"
+                    height={100}
+                    width={100}
+                    timeout={3000} //3 secs
+                /> */}
+                <Loader visible={true} type="Oval" color="#00BFFF" height={900} width={100} timeout={3000}/>
             </>
         );
     }
